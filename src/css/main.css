@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+}
+
+.form-registration {
+  outline: 1px solid grey;
+  width: 350px;
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #a8aed0;
+}
+
+.form-registration-item {
+  max-width: 250px;
+  max-height: 30px;
+  margin-bottom: 40px;
+}
+
+.form-registration-FIO {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form-registration-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-registration-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-registration__lable {
+  margin-bottom: 5px;
+  color: #040926;
+  size: 15px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-style: solid;
+  border-color: #262c53;
+}
+
+.form-registration-item__error {
+  width: 250;
+  height: 40px;
+  list-style: none;
+  margin: 0;
+  color: #6c293d;
+}
+
+.form-registration__button {
+  width: 260px;
+  line-height: 30px;
+  margin-top: 18px;
+  background-color: #8892d0;
+  border-style: solid;
+  border-color: #262c53;
+  color: #262c53;
+  font-size: 15px;
+}
+
+.form-registration-item__input--error {
+  border: 3px solid #6c293d;
+}
