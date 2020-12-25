@@ -9,7 +9,7 @@ module.exports = {
         sourceType: "module",
     },
     rules: {
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": 0,
         "import/prefer-default-export": "off",
         "no-plusplus": "off",
         "comma-dangle": ["error", "never"],
